@@ -82,5 +82,4 @@ async def process_files(speaker_audio: UploadFile = File(...), input_file: Uploa
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 7600))
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    uvicorn.run(app, host="0.0.0.0", port=8081)
