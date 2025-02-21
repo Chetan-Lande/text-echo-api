@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+TTS
+pytesseract
+pillow
+pypdf2
